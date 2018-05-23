@@ -3,5 +3,5 @@ project(template)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES test_binarize.c)
+set(SOURCE_FILES test_binarize.c binarize.h binarize.c)
 add_executable(template ${SOURCE_FILES})
